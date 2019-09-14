@@ -1,2 +1,4 @@
-my:
-  test: foo
+route:
+  foo:
+    fromRoute: direct:start
+    toRoute: http4:localhost:8081/execute
